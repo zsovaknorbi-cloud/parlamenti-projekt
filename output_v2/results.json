@@ -1,0 +1,1237 @@
+{
+  "n_kodolt": 17901,
+  "kezdemenyezo_kodolt": 15073,
+  "kezdemenyezo_osszes": 15073,
+  "erzelmes_mufaj_oldal": [
+    {
+      "mufaj": "napirend előtt",
+      "oldal": "kormany",
+      "erzelmes_arany": 0.4727546035325066,
+      "ci_also": 0.4280969249006195,
+      "ci_felso": 0.5141065134769028,
+      "mondat": 5322,
+      "beszed": 65
+    },
+    {
+      "mufaj": "napirend előtt",
+      "oldal": "ellenzek",
+      "erzelmes_arany": 0.44816236972024137,
+      "ci_also": 0.4159958986043862,
+      "ci_felso": 0.4823980417562327,
+      "mondat": 3646,
+      "beszed": 89
+    },
+    {
+      "mufaj": "napirend előtt",
+      "oldal": "mind",
+      "erzelmes_arany": 0.4627564674397859,
+      "ci_also": 0.4329208391638009,
+      "ci_felso": 0.49186840965735457,
+      "mondat": 8968,
+      "beszed": 154
+    },
+    {
+      "mufaj": "interpelláció",
+      "oldal": "kormany",
+      "erzelmes_arany": 0.348993288590604,
+      "ci_also": 0.27710379981464317,
+      "ci_felso": 0.4288486842105263,
+      "mondat": 447,
+      "beszed": 40
+    },
+    {
+      "mufaj": "interpelláció",
+      "oldal": "ellenzek",
+      "erzelmes_arany": 0.36073957513768684,
+      "ci_also": 0.3319203767226033,
+      "ci_felso": 0.3899906073893833,
+      "mondat": 2542,
+      "beszed": 172
+    },
+    {
+      "mufaj": "interpelláció",
+      "oldal": "mind",
+      "erzelmes_arany": 0.35898293743727,
+      "ci_also": 0.3325230207186468,
+      "ci_felso": 0.3852773529371779,
+      "mondat": 2989,
+      "beszed": 212
+    },
+    {
+      "mufaj": "azonnali kérdés",
+      "oldal": "kormany",
+      "erzelmes_arany": 0.4274661508704062,
+      "ci_also": 0.369265172900494,
+      "ci_felso": 0.48450636243966644,
+      "mondat": 517,
+      "beszed": 59
+    },
+    {
+      "mufaj": "azonnali kérdés",
+      "oldal": "ellenzek",
+      "erzelmes_arany": 0.38091573682185453,
+      "ci_also": 0.3520900830719188,
+      "ci_felso": 0.4100631711737281,
+      "mondat": 2599,
+      "beszed": 210
+    },
+    {
+      "mufaj": "azonnali kérdés",
+      "oldal": "mind",
+      "erzelmes_arany": 0.3886392811296534,
+      "ci_also": 0.36211571427857975,
+      "ci_felso": 0.4156733533504582,
+      "mondat": 3116,
+      "beszed": 269
+    }
+  ],
+  "regresszio": {
+    "n": 15073,
+    "klaszter_beszed": 635,
+    "egyutthatok": [
+      {
+        "valtozo": "const",
+        "b": 0.44543883322966965,
+        "se": 0.03087233659171188,
+        "ci_also": 0.38492905350991435,
+        "ci_felso": 0.505948612949425
+      },
+      {
+        "valtozo": "napirend_elott",
+        "b": 0.10204225564940679,
+        "se": 0.021089050640636944,
+        "ci_also": 0.06070771639375838,
+        "ci_felso": 0.1433767949050552
+      },
+      {
+        "valtozo": "azonnali_kerdes",
+        "b": 0.02758954302491419,
+        "se": 0.019284208433703504,
+        "ci_also": -0.010207505505144675,
+        "ci_felso": 0.06538659155497306
+      },
+      {
+        "valtozo": "ellenzek",
+        "b": -0.02209753889395073,
+        "se": 0.021430134946427003,
+        "ci_also": -0.06410060338894766,
+        "ci_felso": 0.019905525601046196
+      },
+      {
+        "valtozo": "viszonvalasz",
+        "b": 0.02433062513948902,
+        "se": 0.019012838409524526,
+        "ci_also": -0.012934538143179054,
+        "ci_felso": 0.06159578842215709
+      }
+    ],
+    "referencia": "interpelláció, kormányoldal, első kör; adag-fix hatással"
+  },
+  "beszedhossz": [
+    {
+      "napirendi_mufaj": "napirend előtt",
+      "count": 154,
+      "median": 629.0,
+      "mean": 863.4805194805194
+    },
+    {
+      "napirendi_mufaj": "interpelláció",
+      "count": 106,
+      "median": 334.5,
+      "mean": 320.5943396226415
+    },
+    {
+      "napirendi_mufaj": "azonnali kérdés",
+      "count": 134,
+      "median": 246.5,
+      "mean": 225.2537313432836
+    }
+  ],
+  "cap_999_arany": {
+    "napirend előtt": 0.43331846565566456,
+    "interpelláció": 0.3395784543325527,
+    "azonnali kérdés": 0.36938382541720155
+  },
+  "cap_top": {
+    "Kormányzati működés": {
+      "napirend előtt": 0.361,
+      "interpelláció": 0.146,
+      "azonnali kérdés": 0.217
+    },
+    "Szociális ellátás": {
+      "napirend előtt": 0.082,
+      "interpelláció": 0.108,
+      "azonnali kérdés": 0.067
+    },
+    "Egészségügy": {
+      "napirend előtt": 0.053,
+      "interpelláció": 0.139,
+      "azonnali kérdés": 0.039
+    },
+    "Külügy, EU": {
+      "napirend előtt": 0.095,
+      "interpelláció": 0.03,
+      "azonnali kérdés": 0.07
+    },
+    "Energia": {
+      "napirend előtt": 0.053,
+      "interpelláció": 0.052,
+      "azonnali kérdés": 0.058
+    },
+    "Makrogazdaság": {
+      "napirend előtt": 0.05,
+      "interpelláció": 0.045,
+      "azonnali kérdés": 0.064
+    },
+    "Oktatás": {
+      "napirend előtt": 0.032,
+      "interpelláció": 0.064,
+      "azonnali kérdés": 0.062
+    },
+    "Közlekedés": {
+      "napirend előtt": 0.024,
+      "interpelláció": 0.066,
+      "azonnali kérdés": 0.049
+    }
+  },
+  "erzelmes_szerep_veletlen": [
+    {
+      "szerep": "kezdemenyezo",
+      "erzelmes_arany": 0.4166666666666667,
+      "ci_also": 0.3897210402452185,
+      "ci_felso": 0.44227721417261284,
+      "mondat": 2172,
+      "beszed": 506
+    },
+    {
+      "szerep": "kormanyzati_valaszado",
+      "erzelmes_arany": 0.39168704156479217,
+      "ci_also": 0.36234701396552016,
+      "ci_felso": 0.41638607959217233,
+      "mondat": 2045,
+      "beszed": 465
+    },
+    {
+      "szerep": "frakcio_hozzaszolo",
+      "erzelmes_arany": 0.46871008939974457,
+      "ci_also": 0.4254733349906988,
+      "ci_felso": 0.5118967130808517,
+      "mondat": 783,
+      "beszed": 100
+    }
+  ],
+  "cap_erzelem": [
+    {
+      "cap": 20,
+      "tema": "Kormányzati működés",
+      "mondat": 2548,
+      "erzelmes_arany": 0.6110675039246468,
+      "ci_also": 0.5762875081515106,
+      "ci_felso": 0.6460377825518401,
+      "negativ_az_erzelmesbol": 0.8953114964675658,
+      "düh": 0.7662170841361593,
+      "félelem": 0.01605651894669236,
+      "megvetés": 0.0899165061014772,
+      "szomorúság": 0.023121387283236993,
+      "öröm": 0.05073859987154785,
+      "büszkeség": 0.05394990366088632
+    },
+    {
+      "cap": 9,
+      "tema": "Bevándorlás",
+      "mondat": 200,
+      "erzelmes_arany": 0.555,
+      "ci_also": 0.43645674150699426,
+      "ci_felso": 0.6473261323207444,
+      "negativ_az_erzelmesbol": 0.936936936936937,
+      "düh": 0.6756756756756757,
+      "félelem": 0.12612612612612611,
+      "megvetés": 0.12612612612612611,
+      "szomorúság": 0.009009009009009009,
+      "öröm": 0.036036036036036036,
+      "büszkeség": 0.02702702702702703
+    },
+    {
+      "cap": 7,
+      "tema": "Környezetvédelem",
+      "mondat": 117,
+      "erzelmes_arany": 0.5213675213675214,
+      "ci_also": 0.4255258009293226,
+      "ci_felso": 0.6250726744186043,
+      "negativ_az_erzelmesbol": 0.8688524590163935,
+      "düh": 0.29508196721311475,
+      "félelem": 0.4918032786885246,
+      "megvetés": 0.04918032786885246,
+      "szomorúság": 0.03278688524590164,
+      "öröm": 0.13114754098360656,
+      "büszkeség": 0.0
+    },
+    {
+      "cap": 17,
+      "tema": "Technológia, média",
+      "mondat": 276,
+      "erzelmes_arany": 0.5,
+      "ci_also": 0.42483598702638947,
+      "ci_felso": 0.5767717111155792,
+      "negativ_az_erzelmesbol": 0.8840579710144927,
+      "düh": 0.6811594202898551,
+      "félelem": 0.043478260869565216,
+      "megvetés": 0.15942028985507245,
+      "szomorúság": 0.0,
+      "öröm": 0.10144927536231885,
+      "büszkeség": 0.014492753623188406
+    },
+    {
+      "cap": 2,
+      "tema": "Polgári jogok",
+      "mondat": 289,
+      "erzelmes_arany": 0.4982698961937716,
+      "ci_also": 0.4113084364859993,
+      "ci_felso": 0.586209997519226,
+      "negativ_az_erzelmesbol": 0.8402777777777778,
+      "düh": 0.6388888888888888,
+      "félelem": 0.020833333333333332,
+      "megvetés": 0.11805555555555555,
+      "szomorúság": 0.0625,
+      "öröm": 0.06944444444444445,
+      "büszkeség": 0.09027777777777778
+    },
+    {
+      "cap": 12,
+      "tema": "Rendvédelem, igazságügy",
+      "mondat": 429,
+      "erzelmes_arany": 0.48484848484848486,
+      "ci_also": 0.4036870144232556,
+      "ci_felso": 0.5747176498858584,
+      "negativ_az_erzelmesbol": 0.8798076923076923,
+      "düh": 0.6634615384615384,
+      "félelem": 0.07692307692307693,
+      "megvetés": 0.0625,
+      "szomorúság": 0.07692307692307693,
+      "öröm": 0.052884615384615384,
+      "büszkeség": 0.0673076923076923
+    },
+    {
+      "cap": 13,
+      "tema": "Szociális ellátás",
+      "mondat": 760,
+      "erzelmes_arany": 0.46842105263157896,
+      "ci_also": 0.38790676656275375,
+      "ci_felso": 0.5392221362229102,
+      "negativ_az_erzelmesbol": 0.8342696629213483,
+      "düh": 0.5140449438202247,
+      "félelem": 0.08707865168539326,
+      "megvetés": 0.03932584269662921,
+      "szomorúság": 0.19382022471910113,
+      "öröm": 0.13764044943820225,
+      "büszkeség": 0.028089887640449437
+    },
+    {
+      "cap": 16,
+      "tema": "Honvédelem",
+      "mondat": 105,
+      "erzelmes_arany": 0.45714285714285713,
+      "ci_also": 0.3333333333333333,
+      "ci_felso": 0.5950165621672774,
+      "negativ_az_erzelmesbol": 0.6041666666666666,
+      "düh": 0.3333333333333333,
+      "félelem": 0.125,
+      "megvetés": 0.0625,
+      "szomorúság": 0.08333333333333333,
+      "öröm": 0.020833333333333332,
+      "büszkeség": 0.375
+    },
+    {
+      "cap": 19,
+      "tema": "Külügy, EU",
+      "mondat": 678,
+      "erzelmes_arany": 0.4469026548672566,
+      "ci_also": 0.39539594284053986,
+      "ci_felso": 0.49649776546076446,
+      "negativ_az_erzelmesbol": 0.7425742574257426,
+      "düh": 0.5445544554455446,
+      "félelem": 0.0231023102310231,
+      "megvetés": 0.1254125412541254,
+      "szomorúság": 0.04950495049504951,
+      "öröm": 0.14521452145214522,
+      "büszkeség": 0.11221122112211221
+    },
+    {
+      "cap": 15,
+      "tema": "Kereskedelem, fogyasztóvéd.",
+      "mondat": 313,
+      "erzelmes_arany": 0.4249201277955272,
+      "ci_also": 0.36162018799242046,
+      "ci_felso": 0.48838144021535923,
+      "negativ_az_erzelmesbol": 0.8421052631578946,
+      "düh": 0.631578947368421,
+      "félelem": 0.11278195488721804,
+      "megvetés": 0.05263157894736842,
+      "szomorúság": 0.045112781954887216,
+      "öröm": 0.07518796992481203,
+      "büszkeség": 0.08270676691729323
+    },
+    {
+      "cap": 4,
+      "tema": "Mezőgazdaság",
+      "mondat": 263,
+      "erzelmes_arany": 0.41825095057034223,
+      "ci_also": 0.3591829548720897,
+      "ci_felso": 0.47331461667177294,
+      "negativ_az_erzelmesbol": 0.8636363636363636,
+      "düh": 0.5,
+      "félelem": 0.2636363636363636,
+      "megvetés": 0.01818181818181818,
+      "szomorúság": 0.08181818181818182,
+      "öröm": 0.08181818181818182,
+      "büszkeség": 0.05454545454545454
+    },
+    {
+      "cap": 6,
+      "tema": "Oktatás",
+      "mondat": 409,
+      "erzelmes_arany": 0.39853300733496333,
+      "ci_also": 0.3339756258234519,
+      "ci_felso": 0.4662964168265278,
+      "negativ_az_erzelmesbol": 0.8282208588957055,
+      "düh": 0.5337423312883436,
+      "félelem": 0.07975460122699386,
+      "megvetés": 0.13496932515337423,
+      "szomorúság": 0.07975460122699386,
+      "öröm": 0.147239263803681,
+      "büszkeség": 0.024539877300613498
+    },
+    {
+      "cap": 21,
+      "tema": "Közterületek, vízügy",
+      "mondat": 221,
+      "erzelmes_arany": 0.39819004524886875,
+      "ci_also": 0.34271657341308126,
+      "ci_felso": 0.46753770423125257,
+      "negativ_az_erzelmesbol": 0.7613636363636364,
+      "düh": 0.45454545454545453,
+      "félelem": 0.19318181818181818,
+      "megvetés": 0.09090909090909091,
+      "szomorúság": 0.022727272727272728,
+      "öröm": 0.20454545454545456,
+      "büszkeség": 0.03409090909090909
+    },
+    {
+      "cap": 5,
+      "tema": "Munkaügy",
+      "mondat": 249,
+      "erzelmes_arany": 0.37751004016064255,
+      "ci_also": 0.31707044860627176,
+      "ci_felso": 0.4405981652667636,
+      "negativ_az_erzelmesbol": 0.8191489361702128,
+      "düh": 0.5638297872340425,
+      "félelem": 0.07446808510638298,
+      "megvetés": 0.09574468085106383,
+      "szomorúság": 0.0851063829787234,
+      "öröm": 0.14893617021276595,
+      "büszkeség": 0.031914893617021274
+    },
+    {
+      "cap": 14,
+      "tema": "Lakhatás",
+      "mondat": 232,
+      "erzelmes_arany": 0.375,
+      "ci_also": 0.3146067415730337,
+      "ci_felso": 0.45563427800269896,
+      "negativ_az_erzelmesbol": 0.7816091954022988,
+      "düh": 0.5747126436781609,
+      "félelem": 0.10344827586206896,
+      "megvetés": 0.034482758620689655,
+      "szomorúság": 0.06896551724137931,
+      "öröm": 0.20689655172413793,
+      "büszkeség": 0.011494252873563218
+    },
+    {
+      "cap": 10,
+      "tema": "Közlekedés",
+      "mondat": 347,
+      "erzelmes_arany": 0.37175792507204614,
+      "ci_also": 0.30562415128501735,
+      "ci_felso": 0.4464329056865465,
+      "negativ_az_erzelmesbol": 0.7984496124031009,
+      "düh": 0.7131782945736435,
+      "félelem": 0.03875968992248062,
+      "megvetés": 0.031007751937984496,
+      "szomorúság": 0.015503875968992248,
+      "öröm": 0.17054263565891473,
+      "büszkeség": 0.031007751937984496
+    },
+    {
+      "cap": 8,
+      "tema": "Energia",
+      "mondat": 487,
+      "erzelmes_arany": 0.3655030800821355,
+      "ci_also": 0.31293728176201985,
+      "ci_felso": 0.4168426019744806,
+      "negativ_az_erzelmesbol": 0.8089887640449438,
+      "düh": 0.5168539325842697,
+      "félelem": 0.20224719101123595,
+      "megvetés": 0.08426966292134831,
+      "szomorúság": 0.0056179775280898875,
+      "öröm": 0.09550561797752809,
+      "büszkeség": 0.09550561797752809
+    },
+    {
+      "cap": 3,
+      "tema": "Egészségügy",
+      "mondat": 621,
+      "erzelmes_arany": 0.36231884057971014,
+      "ci_also": 0.3030767805606936,
+      "ci_felso": 0.4270466395311219,
+      "negativ_az_erzelmesbol": 0.7955555555555556,
+      "düh": 0.49333333333333335,
+      "félelem": 0.1288888888888889,
+      "megvetés": 0.044444444444444446,
+      "szomorúság": 0.1288888888888889,
+      "öröm": 0.14666666666666667,
+      "büszkeség": 0.057777777777777775
+    },
+    {
+      "cap": 1,
+      "tema": "Makrogazdaság",
+      "mondat": 469,
+      "erzelmes_arany": 0.3582089552238806,
+      "ci_also": 0.29740638619160487,
+      "ci_felso": 0.4200976783319748,
+      "negativ_az_erzelmesbol": 0.8392857142857142,
+      "düh": 0.7023809523809523,
+      "félelem": 0.07142857142857142,
+      "megvetés": 0.05952380952380952,
+      "szomorúság": 0.005952380952380952,
+      "öröm": 0.13690476190476192,
+      "büszkeség": 0.023809523809523808
+    }
+  ],
+  "erzelmes_frakcio": [
+    {
+      "frakcio": "Fidesz",
+      "erzelmes_arany": 0.4010084033613445,
+      "ci_also": 0.3691196015162503,
+      "ci_felso": 0.43345059806514696,
+      "mondat": 2975,
+      "beszed": 169
+    },
+    {
+      "frakcio": "KDNP",
+      "erzelmes_arany": 0.38394415357766143,
+      "ci_also": 0.34975860030174555,
+      "ci_felso": 0.4177576061442343,
+      "mondat": 2865,
+      "beszed": 145
+    },
+    {
+      "frakcio": "Kormány (nem képviselő)",
+      "erzelmes_arany": 0.35658914728682173,
+      "ci_also": 0.11782477341389729,
+      "ci_felso": 0.5793650793650794,
+      "mondat": 258,
+      "beszed": 4
+    },
+    {
+      "frakcio": "Mi Hazánk",
+      "erzelmes_arany": 0.42348150661689854,
+      "ci_also": 0.3909123034769639,
+      "ci_felso": 0.45467842218932103,
+      "mondat": 2947,
+      "beszed": 157
+    },
+    {
+      "frakcio": "TISZA",
+      "erzelmes_arany": 0.464664897146649,
+      "ci_also": 0.42727562671910435,
+      "ci_felso": 0.4997473947914224,
+      "mondat": 6028,
+      "beszed": 160
+    },
+    {
+      "frakcio": "TISZA Magyar Péter nélkül",
+      "erzelmes_arany": 0.41685965724872626,
+      "ci_also": 0.3758905508148054,
+      "ci_felso": 0.45819233006417615,
+      "mondat": 2159,
+      "beszed": 131
+    }
+  ],
+  "magyar_peter_arany_tisza": 0.6418380889183809,
+  "regresszio_robusztus": [
+    {
+      "valtozo": "const",
+      "b": 0.42773377501555315,
+      "se": 0.03253980784643725,
+      "ci_also": 0.36395575163653615,
+      "ci_felso": 0.49151179839457015
+    },
+    {
+      "valtozo": "napirend_elott",
+      "b": 0.09615933814165739,
+      "se": 0.021730235004149157,
+      "ci_also": 0.05356807753352504,
+      "ci_felso": 0.13875059874978973
+    },
+    {
+      "valtozo": "azonnali_kerdes",
+      "b": 0.030240209311211002,
+      "se": 0.019357716754696937,
+      "ci_also": -0.007700915527994994,
+      "ci_felso": 0.068181334150417
+    },
+    {
+      "valtozo": "viszonvalasz",
+      "b": 0.023652585358542352,
+      "se": 0.018861835914740582,
+      "ci_also": -0.013316613034349188,
+      "ci_felso": 0.06062178375143389
+    },
+    {
+      "valtozo": "frakcio_Fidesz",
+      "b": -0.005105751385995557,
+      "se": 0.027550509771917874,
+      "ci_also": -0.05910475053895459,
+      "ci_felso": 0.04889324776696348
+    },
+    {
+      "valtozo": "frakcio_KDNP",
+      "b": -0.022900952292341875,
+      "se": 0.027318878854362915,
+      "ci_also": -0.07644595484689319,
+      "ci_felso": 0.03064405026220944
+    },
+    {
+      "valtozo": "frakcio_Mi Hazánk",
+      "b": 0.017963998437740172,
+      "se": 0.026543459111479727,
+      "ci_also": -0.03406118142076009,
+      "ci_felso": 0.06998917829624043
+    },
+    {
+      "valtozo": "frakcio_Kormány (nem képviselő)",
+      "b": -0.09070863514523154,
+      "se": 0.14132990636683862,
+      "ci_also": -0.36771525162423524,
+      "ci_felso": 0.18629798133377218
+    },
+    {
+      "valtozo": "magyar_peter",
+      "b": 0.04167361095074538,
+      "se": 0.03541774145188877,
+      "ci_also": -0.02774516229495661,
+      "ci_felso": 0.11109238419644737
+    }
+  ],
+  "erzelmes_kepviselo": [
+    {
+      "kepviselo": "Németh Balázs Lajos",
+      "frakcio": "Fidesz",
+      "mondat": 198,
+      "beszed": 12,
+      "erzelmes_arany": 0.5454545454545454,
+      "ci_also": 0.43242259249540804,
+      "ci_felso": 0.6619176524112829,
+      "fotema": "Kormányzati működés"
+    },
+    {
+      "kepviselo": "Magyar Péter",
+      "frakcio": "TISZA",
+      "mondat": 3869,
+      "beszed": 29,
+      "erzelmes_arany": 0.4913414318945464,
+      "ci_also": 0.43996947154556526,
+      "ci_felso": 0.5427400428434238,
+      "fotema": "Kormányzati működés"
+    },
+    {
+      "kepviselo": "Toroczkai László",
+      "frakcio": "Mi Hazánk",
+      "mondat": 1142,
+      "beszed": 31,
+      "erzelmes_arany": 0.48248686514886163,
+      "ci_also": 0.4307482298370375,
+      "ci_felso": 0.5355767339341261,
+      "fotema": "Kormányzati működés"
+    },
+    {
+      "kepviselo": "Hidvéghi Balázs",
+      "frakcio": "Fidesz",
+      "mondat": 293,
+      "beszed": 11,
+      "erzelmes_arany": 0.4812286689419795,
+      "ci_also": 0.39589693582867647,
+      "ci_felso": 0.584726223790684,
+      "fotema": "Kormányzati működés"
+    },
+    {
+      "kepviselo": "Dr. Bóka János",
+      "frakcio": "Fidesz",
+      "mondat": 407,
+      "beszed": 12,
+      "erzelmes_arany": 0.47665847665847666,
+      "ci_also": 0.3842385817903846,
+      "ci_felso": 0.5842148349463079,
+      "fotema": "Kormányzati működés"
+    },
+    {
+      "kepviselo": "Dr. Panyi Miklós",
+      "frakcio": "Fidesz",
+      "mondat": 271,
+      "beszed": 14,
+      "erzelmes_arany": 0.45387453874538747,
+      "ci_also": 0.33671968787515005,
+      "ci_felso": 0.5352744916276743,
+      "fotema": "Kormányzati működés"
+    },
+    {
+      "kepviselo": "Dr. Latorcai Csaba",
+      "frakcio": "KDNP",
+      "mondat": 487,
+      "beszed": 29,
+      "erzelmes_arany": 0.4455852156057495,
+      "ci_also": 0.3774638522406951,
+      "ci_felso": 0.5171836007130124,
+      "fotema": "Kormányzati működés"
+    },
+    {
+      "kepviselo": "Rétvári Bence",
+      "frakcio": "KDNP",
+      "mondat": 844,
+      "beszed": 30,
+      "erzelmes_arany": 0.4443127962085308,
+      "ci_also": 0.3708113548838838,
+      "ci_felso": 0.5085044700237068,
+      "fotema": "Oktatás"
+    },
+    {
+      "kepviselo": "Szűcs Gábor",
+      "frakcio": "Fidesz",
+      "mondat": 262,
+      "beszed": 13,
+      "erzelmes_arany": 0.4389312977099237,
+      "ci_also": 0.3466020533251609,
+      "ci_felso": 0.518135142529797,
+      "fotema": "Kormányzati működés"
+    },
+    {
+      "kepviselo": "Novák Előd",
+      "frakcio": "Mi Hazánk",
+      "mondat": 663,
+      "beszed": 44,
+      "erzelmes_arany": 0.4374057315233786,
+      "ci_also": 0.36631670413418155,
+      "ci_felso": 0.5162732540971505,
+      "fotema": "Kormányzati működés"
+    },
+    {
+      "kepviselo": "Dr. Máthé Zsuzsa",
+      "frakcio": "KDNP",
+      "mondat": 356,
+      "beszed": 18,
+      "erzelmes_arany": 0.43258426966292135,
+      "ci_also": 0.32840847350191293,
+      "ci_felso": 0.521955536369523,
+      "fotema": "Szociális ellátás"
+    },
+    {
+      "kepviselo": "Pócs János",
+      "frakcio": "Fidesz",
+      "mondat": 190,
+      "beszed": 14,
+      "erzelmes_arany": 0.41578947368421054,
+      "ci_also": 0.2999884792626728,
+      "ci_felso": 0.5647310924369746,
+      "fotema": "Mezőgazdaság"
+    },
+    {
+      "kepviselo": "Dr. Apáti István",
+      "frakcio": "Mi Hazánk",
+      "mondat": 232,
+      "beszed": 15,
+      "erzelmes_arany": 0.39655172413793105,
+      "ci_also": 0.3249946581196581,
+      "ci_felso": 0.4852941176470588,
+      "fotema": "Egészségügy"
+    },
+    {
+      "kepviselo": "Szabadi István",
+      "frakcio": "Mi Hazánk",
+      "mondat": 478,
+      "beszed": 32,
+      "erzelmes_arany": 0.37656903765690375,
+      "ci_also": 0.31222249227042365,
+      "ci_felso": 0.440367413549753,
+      "fotema": "Egészségügy"
+    },
+    {
+      "kepviselo": "Dr. Hegedűs Barbara",
+      "frakcio": "Fidesz",
+      "mondat": 178,
+      "beszed": 14,
+      "erzelmes_arany": 0.3539325842696629,
+      "ci_also": 0.25212703962703964,
+      "ci_felso": 0.46364545454545447,
+      "fotema": "Szociális ellátás"
+    },
+    {
+      "kepviselo": "Dr. Juhász Hajnalka",
+      "frakcio": "KDNP",
+      "mondat": 493,
+      "beszed": 18,
+      "erzelmes_arany": 0.3488843813387424,
+      "ci_also": 0.291300220143093,
+      "ci_felso": 0.4233299826579911,
+      "fotema": "Külügy, EU"
+    },
+    {
+      "kepviselo": "Dr. Takács Árpád",
+      "frakcio": "Fidesz",
+      "mondat": 124,
+      "beszed": 10,
+      "erzelmes_arany": 0.3467741935483871,
+      "ci_also": 0.23140495867768596,
+      "ci_felso": 0.4606769112139238,
+      "fotema": "Kormányzati működés"
+    },
+    {
+      "kepviselo": "Dr. Hargitai János",
+      "frakcio": "KDNP",
+      "mondat": 112,
+      "beszed": 8,
+      "erzelmes_arany": 0.32142857142857145,
+      "ci_also": 0.2137580103753433,
+      "ci_felso": 0.47058823529411764,
+      "fotema": "Közlekedés"
+    },
+    {
+      "kepviselo": "Dócs Dávid",
+      "frakcio": "Mi Hazánk",
+      "mondat": 179,
+      "beszed": 16,
+      "erzelmes_arany": 0.3128491620111732,
+      "ci_also": 0.2254283184919023,
+      "ci_felso": 0.38542798913043474,
+      "fotema": "Mezőgazdaság"
+    },
+    {
+      "kepviselo": "Dúró Dóra",
+      "frakcio": "Mi Hazánk",
+      "mondat": 253,
+      "beszed": 19,
+      "erzelmes_arany": 0.31225296442687744,
+      "ci_also": 0.24433765632237145,
+      "ci_felso": 0.39011324041811846,
+      "fotema": "Egészségügy"
+    },
+    {
+      "kepviselo": "Zsigó Róbert",
+      "frakcio": "Fidesz",
+      "mondat": 122,
+      "beszed": 7,
+      "erzelmes_arany": 0.3114754098360656,
+      "ci_also": 0.13330578512396693,
+      "ci_felso": 0.48335106382978715,
+      "fotema": "Oktatás"
+    },
+    {
+      "kepviselo": "Palóc André",
+      "frakcio": "Fidesz",
+      "mondat": 177,
+      "beszed": 4,
+      "erzelmes_arany": 0.2937853107344633,
+      "ci_also": 0.2,
+      "ci_felso": 0.3614457831325301,
+      "fotema": "Energia"
+    },
+    {
+      "kepviselo": "Nacsa Lőrinc",
+      "frakcio": "KDNP",
+      "mondat": 372,
+      "beszed": 27,
+      "erzelmes_arany": 0.28763440860215056,
+      "ci_also": 0.21993242949259031,
+      "ci_felso": 0.35443176467329585,
+      "fotema": "Külügy, EU"
+    },
+    {
+      "kepviselo": "Hortay Olivér",
+      "frakcio": "Fidesz",
+      "mondat": 129,
+      "beszed": 11,
+      "erzelmes_arany": 0.23255813953488372,
+      "ci_also": 0.14562276989461453,
+      "ci_felso": 0.32232071447613964,
+      "fotema": "Energia"
+    },
+    {
+      "kepviselo": "Dr. Simicskó István",
+      "frakcio": "KDNP",
+      "mondat": 201,
+      "beszed": 15,
+      "erzelmes_arany": 0.19402985074626866,
+      "ci_also": 0.15576142745814636,
+      "ci_felso": 0.2356020942408377,
+      "fotema": "Szociális ellátás"
+    },
+    {
+      "kepviselo": "Dr. Baka András",
+      "frakcio": "Kormány (nem képviselő)",
+      "mondat": 100,
+      "beszed": 1,
+      "erzelmes_arany": 0.07,
+      "ci_also": 0.07,
+      "ci_felso": 0.07,
+      "fotema": "Kormányzati működés"
+    }
+  ],
+  "idovonal": [
+    {
+      "date": "2026-05-26",
+      "mondat": 584,
+      "figyelem": 0.00684931506849315,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "Mezőgazdaság"
+    },
+    {
+      "date": "2026-05-27",
+      "mondat": 153,
+      "figyelem": 0.006535947712418301,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "Környezetvédelem"
+    },
+    {
+      "date": "2026-06-01",
+      "mondat": 847,
+      "figyelem": 0.018890200708382526,
+      "aszaly_mondat": 2,
+      "fo_tema_aznap": "Mezőgazdaság"
+    },
+    {
+      "date": "2026-06-08",
+      "mondat": 731,
+      "figyelem": 0.012311901504787962,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "Mezőgazdaság"
+    },
+    {
+      "date": "2026-06-09",
+      "mondat": 236,
+      "figyelem": 0.038135593220338986,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "Mezőgazdaság"
+    },
+    {
+      "date": "2026-06-15",
+      "mondat": 751,
+      "figyelem": 0.047936085219707054,
+      "aszaly_mondat": 8,
+      "fo_tema_aznap": "Mezőgazdaság"
+    },
+    {
+      "date": "2026-06-16",
+      "mondat": 238,
+      "figyelem": 0.0,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "-"
+    },
+    {
+      "date": "2026-06-22",
+      "mondat": 843,
+      "figyelem": 0.02965599051008304,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "Mezőgazdaság"
+    },
+    {
+      "date": "2026-06-23",
+      "mondat": 227,
+      "figyelem": 0.004405286343612335,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "Közterületek, vízügy"
+    },
+    {
+      "date": "2026-06-29",
+      "mondat": 884,
+      "figyelem": 0.083710407239819,
+      "aszaly_mondat": 5,
+      "fo_tema_aznap": "Mezőgazdaság"
+    },
+    {
+      "date": "2026-06-30",
+      "mondat": 238,
+      "figyelem": 0.23109243697478993,
+      "aszaly_mondat": 10,
+      "fo_tema_aznap": "Közterületek, vízügy"
+    },
+    {
+      "date": "2026-07-06",
+      "mondat": 733,
+      "figyelem": 0.027285129604365622,
+      "aszaly_mondat": 3,
+      "fo_tema_aznap": "Környezetvédelem"
+    },
+    {
+      "date": "2026-07-07",
+      "mondat": 131,
+      "figyelem": 0.21374045801526717,
+      "aszaly_mondat": 4,
+      "fo_tema_aznap": "Közterületek, vízügy"
+    },
+    {
+      "date": "2026-07-13",
+      "mondat": 518,
+      "figyelem": 0.03474903474903475,
+      "aszaly_mondat": 1,
+      "fo_tema_aznap": "Mezőgazdaság"
+    },
+    {
+      "date": "2026-07-14",
+      "mondat": 246,
+      "figyelem": 0.0,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "-"
+    },
+    {
+      "date": "2026-07-20",
+      "mondat": 764,
+      "figyelem": 0.04057591623036649,
+      "aszaly_mondat": 5,
+      "fo_tema_aznap": "Környezetvédelem"
+    },
+    {
+      "date": "2026-07-21",
+      "mondat": 310,
+      "figyelem": 0.0,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "-"
+    },
+    {
+      "date": "2026-07-27",
+      "mondat": 519,
+      "figyelem": 0.011560693641618497,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "Mezőgazdaság"
+    },
+    {
+      "date": "2026-07-28",
+      "mondat": 295,
+      "figyelem": 0.003389830508474576,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "Környezetvédelem"
+    },
+    {
+      "date": "2026-08-10",
+      "mondat": 827,
+      "figyelem": 0.11124546553808948,
+      "aszaly_mondat": 32,
+      "fo_tema_aznap": "Közterületek, vízügy"
+    },
+    {
+      "date": "2026-08-11",
+      "mondat": 112,
+      "figyelem": 0.0,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "-"
+    },
+    {
+      "date": "2026-08-27",
+      "mondat": 913,
+      "figyelem": 0.04381161007667032,
+      "aszaly_mondat": 6,
+      "fo_tema_aznap": "Közterületek, vízügy"
+    },
+    {
+      "date": "2026-08-28",
+      "mondat": 360,
+      "figyelem": 0.008333333333333333,
+      "aszaly_mondat": 2,
+      "fo_tema_aznap": "Közterületek, vízügy"
+    },
+    {
+      "date": "2026-09-07",
+      "mondat": 908,
+      "figyelem": 0.05066079295154185,
+      "aszaly_mondat": 11,
+      "fo_tema_aznap": "Környezetvédelem"
+    },
+    {
+      "date": "2026-09-08",
+      "mondat": 318,
+      "figyelem": 0.018867924528301886,
+      "aszaly_mondat": 1,
+      "fo_tema_aznap": "Mezőgazdaság"
+    },
+    {
+      "date": "2026-09-14",
+      "mondat": 808,
+      "figyelem": 0.008663366336633664,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "Mezőgazdaság"
+    },
+    {
+      "date": "2026-09-15",
+      "mondat": 141,
+      "figyelem": 0.0,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "-"
+    },
+    {
+      "date": "2026-09-21",
+      "mondat": 1038,
+      "figyelem": 0.01348747591522158,
+      "aszaly_mondat": 1,
+      "fo_tema_aznap": "Közterületek, vízügy"
+    },
+    {
+      "date": "2026-09-22",
+      "mondat": 156,
+      "figyelem": 0.16025641025641027,
+      "aszaly_mondat": 0,
+      "fo_tema_aznap": "Közterületek, vízügy"
+    },
+    {
+      "date": "2026-09-28",
+      "mondat": 244,
+      "figyelem": 0.13934426229508196,
+      "aszaly_mondat": 2,
+      "fo_tema_aznap": "Mezőgazdaság"
+    }
+  ],
+  "idovonal_median": 0.018879062618342206,
+  "tema_het_n": {
+    "2026-05-25": 423,
+    "2026-06-01": 508,
+    "2026-06-08": 586,
+    "2026-06-15": 526,
+    "2026-06-22": 619,
+    "2026-06-29": 719,
+    "2026-07-06": 595,
+    "2026-07-13": 438,
+    "2026-07-20": 591,
+    "2026-07-27": 536,
+    "2026-08-10": 548,
+    "2026-08-24": 713,
+    "2026-09-07": 728,
+    "2026-09-14": 594,
+    "2026-09-21": 728,
+    "2026-09-28": 169
+  },
+  "leiro_mufaj": [
+    {
+      "mufaj": "napirend előtt",
+      "beszed": 154,
+      "kvazi_mondat": 8968,
+      "szo_median": 629.0,
+      "erzelmes": 0.4627564674397859,
+      "erzelmes_ci_also": 0.43262972909841774,
+      "erzelmes_ci_felso": 0.49219775044494635,
+      "duh_megvetes_az_erzelmesbol": 0.7065060240963855,
+      "tema_nelkul": 0.43331846565566456,
+      "fotema": "Kormányzati működés",
+      "fotema_arany": 0.3608815426997245,
+      "ellenzeki_arany": 0.4065566458519179
+    },
+    {
+      "mufaj": "interpelláció",
+      "beszed": 212,
+      "kvazi_mondat": 2989,
+      "szo_median": 334.5,
+      "erzelmes": 0.35898293743727,
+      "erzelmes_ci_also": 0.33344938906676713,
+      "erzelmes_ci_felso": 0.3869901783080636,
+      "duh_megvetes_az_erzelmesbol": 0.6654240447343895,
+      "tema_nelkul": 0.3395784543325527,
+      "fotema": "Kormányzati működés",
+      "fotema_arany": 0.1458966565349544,
+      "ellenzeki_arany": 0.8504516560722649
+    },
+    {
+      "mufaj": "azonnali kérdés",
+      "beszed": 269,
+      "kvazi_mondat": 3116,
+      "szo_median": 246.5,
+      "erzelmes": 0.3886392811296534,
+      "erzelmes_ci_also": 0.36200452297835983,
+      "erzelmes_ci_felso": 0.4152543697862011,
+      "duh_megvetes_az_erzelmesbol": 0.7431874483897605,
+      "tema_nelkul": 0.36938382541720155,
+      "fotema": "Kormányzati működés",
+      "fotema_arany": 0.216793893129771,
+      "ellenzeki_arany": 0.8340821566110398
+    },
+    {
+      "mufaj": "összesen",
+      "beszed": 635,
+      "kvazi_mondat": 15073,
+      "szo_median": 326.0,
+      "erzelmes": 0.4268559676242287,
+      "erzelmes_ci_also": 0.4061652441142366,
+      "erzelmes_ci_felso": 0.4465622758296506,
+      "duh_megvetes_az_erzelmesbol": 0.7065589058128692,
+      "tema_nelkul": 0.401512638492669,
+      "fotema": "Kormányzati működés",
+      "fotema_arany": 0.2824520563130473,
+      "ellenzeki_arany": 0.5829629138194122
+    }
+  ],
+  "osszefoglalo_valtozok": {
+    "napirend_elott": {
+      "count": 15073.0,
+      "mean": 0.5949711404498109,
+      "std": 0.49091391414563157,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "azonnali_kerdes": {
+      "count": 15073.0,
+      "mean": 0.20672726066476482,
+      "std": 0.40497158033171454,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "ellenzek": {
+      "count": 15073.0,
+      "mean": 0.5829629138194122,
+      "std": 0.4930854746543199,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "viszonvalasz": {
+      "count": 15073.0,
+      "mean": 0.13620380813374908,
+      "std": 0.3430162340231694,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "erzelmes": {
+      "count": 15073.0,
+      "mean": 0.4268559676242287,
+      "std": 0.49463742540422173,
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "asszociaciok": {
+    "mufaj_x_erzelmes": [
+      0.09001397212935958,
+      122.12921128560772,
+      2
+    ],
+    "fotema_x_erzelmes": [
+      0.1946779699880319,
+      341.89149773992136,
+      19
+    ],
+    "mufaj_x_fotema": [
+      0.2504538841873582,
+      1131.7232061020138,
+      38
+    ],
+    "beszed_kormanyzati_tema_x_erzelmes_spearman": [
+      0.3765765799995179,
+      0.2890925910346561,
+      0.454669935560377,
+      458
+    ]
+  }
+}

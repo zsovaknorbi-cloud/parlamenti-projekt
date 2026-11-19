@@ -1,0 +1,25 @@
+file,cap,emotion,reason,model,prompt_version
+2026-08-27_IV_Dr. Bögi Viktória_q013,7,11,"Hulladékgyűjtés kimaradásainak feltárása, tárgyszerű megfogalmazás",claude-haiku,v2
+2026-08-28_NRE_Magyar Péter_2_q266,20,3,"Hazugság vádja, felelősségre vonás a Baka András megválasztása miatt",claude-haiku,v2
+2026-07-27_AV_Csák László_q004,10,11,"Fizikai összefüggés közlése a sebesség és a fékút kapcsán, nincs érzelem",claude-haiku,v2
+2026-07-20_IV_Tarr Zoltán_q021,2,3,"Egyházi intézmények és támogatások feltételezett megalkuvásának számonkérése",claude-haiku,v2
+2026-09-07_A_Dr. Takács Árpád_q008,999,3,"Kormányzati bejelentések általános minősítése, nincs konkrét szakpolitikai terület",claude-haiku,v2
+2026-08-27_AV_Kapitány István_1_q004,999,11,"Személyes tapasztalat közlése, nincs közpolitikai terület és nincs érzelem",claude-haiku,v2
+2026-09-07_NRE_Magyar Péter_7_q003,20,3,"Oktatási miniszter bírálatának lehetetlenségére irányuló gúnyos számonkérés",claude-haiku,v2
+2026-09-21_AV_Boda Nikoletta_2_q005,999,11,"Általános politikai állítás a hatalom múltbeli korszakáról, nincs területmegnevezés",claude-haiku,v2
+2026-08-28_NRE_Magyar Péter_2_q012,1,11,"Áfacsökkentés említése elsőként, az érzelem nincs kifejezve",claude-haiku,v2
+2026-09-14_AV_Boda Nikoletta_1_q005,15,6,"Bedőlt devizahitelek témájának elkeserítő értékelése, pénzügyi terület",claude-haiku,v2
+2026-06-22_IV_F. Kovács Sándor_q012,3,4,"Vidéki kórházak védelmének szükségessége a kormánnyal szemben, fenyegetés érzete",claude-haiku,v2
+2026-06-15_NRE_Magyar Péter_2_q048,19,5,"Kárpátaljai testvérek említése gúnyos, ironikus felhanggal a miniszter kapcsán",claude-haiku,v2
+2026-07-20_A_Dr. Panyi Miklós_q013,13,11,"Családtámogatási jogosulti kör számadatainak tárgyszerű közlése",claude-haiku,v2
+2026-09-14_I_Göröghné Bocskai Éva_q020,13,6,"Idősek megélhetési gondjainak részvétteljes, retorikai kérdéssel megfogalmazott bemutatása",claude-haiku,v2
+2026-06-15_AV_Kapronczai Balázs_1_q004,6,11,"Egyházi iskolákkal kapcsolatos vád visszautasítása, nincs kifejezett érzelem",claude-haiku,v2
+2026-07-07_NRE_Dr. Kovács Gyula_q009,15,11,"Aszály és csapadékhiány tárgyszerű statisztikai közlése, katasztrófahelyzet",claude-haiku,v2
+2026-06-01_NRE_Magyar Péter_1_q036,20,3,"Ipari méretű korrupció leállításának követelése, felháborodás a korrupció miatt",claude-haiku,v2
+2026-06-01_NRE_Magyar Péter_1_q096,20,3,"Nemzeti konzultációkra költött közpénz elégetése, felháborodás a pazarlás miatt",claude-haiku,v2
+2026-07-06_IV_Vitézy Dávid_q031,14,11,"Uniós forrásokból származó lakásprogram módosításának tervezése, nincs kifejezett érzelem",claude-haiku,v2
+2026-09-15_NRE_Kulcsár Krisztián_q021,20,11,"Független intézmények gyengítésének tárgyszerű megállapítása a hatalom részéről",claude-haiku,v2
+2026-09-21_I_Szabadi István_q007,999,4,"Pályázati elszámolási határidő hosszabbítása, a rendszer összeomlásának vészjósló előrejelzése",claude-haiku,v2
+2026-05-26_I_Dúró Dóra_q009,3,11,"Túlsúlyosság stagnálásának és diákok állóképességének tárgyszerű statisztikai közlése",claude-haiku,v2
+2026-09-14_IV_Dr. Svéd Tamás_q020,3,11,"Szülészet-nőgyógyászati ellátás feltételeinek tárgyszerű, félbehagyott mondatban közölt elemei",claude-haiku,v2
+2026-09-14_A_Muhari Gergely_q011,13,3,"Gyermekek gondoskodás nélküli helyzetének számonkérése, felelősök megnevezésére szólító kérdés",claude-haiku,v2

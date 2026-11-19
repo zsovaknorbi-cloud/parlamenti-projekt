@@ -1,0 +1,25 @@
+file,cap,emotion,reason,model,prompt_version
+2026-08-27_IV_Dr. Bögi Viktória_q013,7,11,"Hulladékgyűjtés okainak feltárása, tárgyszerű közlés.",claude-sonnet (subagent),v2
+2026-08-28_NRE_Magyar Péter_2_q266,20,3,"Baka András megszavazása miatti számonkérés, hazugság vádja.",claude-sonnet (subagent),v2
+2026-07-27_AV_Csák László_q004,10,11,"Sebesség és fékút összefüggése, közlekedésbiztonság, tárgyszerű.",claude-sonnet (subagent),v2
+2026-07-20_IV_Tarr Zoltán_q021,2,3,"Egyházakkal szembeni megalkuvás elvárása, felelősök megnevezése, vallásszabadság.",claude-sonnet (subagent),v2
+2026-09-07_A_Dr. Takács Árpád_q008,999,3,"Minősítő jelző (döbbenetes), konkrét terület nélkül.",claude-sonnet (subagent),v2
+2026-08-27_AV_Kapitány István_1_q004,999,11,"Személyes megjegyzés, nincs szakpolitikai téma.",claude-sonnet (subagent),v2
+2026-09-07_NRE_Magyar Péter_7_q003,6,3,"Oktatási miniszter számonkérése, felelősségre vonás hiánya.",claude-sonnet (subagent),v2
+2026-09-21_AV_Boda Nikoletta_2_q005,999,3,"Általános politikai vád, külön mérce, konkrét terület nélkül.",claude-sonnet (subagent),v2
+2026-08-28_NRE_Magyar Péter_2_q012,1,11,"Áfacsökkentés első témaként, vitára felhívás, tárgyszerű.",claude-sonnet (subagent),v2
+2026-09-14_AV_Boda Nikoletta_1_q005,15,3,"Devizahitelesek ügye, elkeserítő megoldatlanság, számonkérő hang.",claude-sonnet (subagent),v2
+2026-06-22_IV_F. Kovács Sándor_q012,3,3,"Vidéki kórházak védelme a kormánytól, felelős megnevezése.",claude-sonnet (subagent),v2
+2026-06-15_NRE_Magyar Péter_2_q048,19,5,"Kárpátaljai magyarok, gúnyos utalás a miniszteri végkielégítésre.",claude-sonnet (subagent),v2
+2026-07-20_A_Dr. Panyi Miklós_q013,13,11,"Családtámogatás jogosulti körének csökkenése, tényközlés.",claude-sonnet (subagent),v2
+2026-09-14_I_Göröghné Bocskai Éva_q020,13,11,"Idősek ellátása, biztonság ígérete, nincs kifejezett érzelemszó.",claude-sonnet (subagent),v2
+2026-06-15_AV_Kapronczai Balázs_1_q004,6,11,"Egyházi iskolák, feltételezés visszautasítása, tárgyszerű.",claude-sonnet (subagent),v2
+2026-07-07_NRE_Dr. Kovács Gyula_q009,21,11,"Csapadékhiány statisztikai közlése, vízügyi téma.",claude-sonnet (subagent),v2
+2026-06-01_NRE_Magyar Péter_1_q036,20,3,"Orbáni korrupció leállítása, minősítő jelző, felelős megnevezése.",claude-sonnet (subagent),v2
+2026-06-01_NRE_Magyar Péter_1_q096,20,3,"Nemzeti konzultációk költsége, közpénz elégetése, kampányfinanszírozás, felháborodás.",claude-sonnet (subagent),v2
+2026-07-06_IV_Vitézy Dávid_q031,14,11,"Uniós forrásokból operatív program módosítása családi házakra, lakáspolitika.",claude-sonnet (subagent),v2
+2026-09-15_NRE_Kulcsár Krisztián_q021,20,3,"Független intézmények kezelése, hatalom felelőssége.",claude-sonnet (subagent),v2
+2026-09-21_I_Szabadi István_q007,15,4,"Pályázók elszámolási határideje, rendszer beborulásának veszélye.",claude-sonnet (subagent),v2
+2026-05-26_I_Dúró Dóra_q009,3,11,"Túlsúly és állóképesség statisztikai adatai.",claude-sonnet (subagent),v2
+2026-09-14_IV_Dr. Svéd Tamás_q020,3,11,"Szülészeti ellátás biztonsága, tárgyszerű.",claude-sonnet (subagent),v2
+2026-09-14_A_Muhari Gergely_q011,13,11,"Gyermekvédelem, információkérés a gyermekek körülményeiről.",claude-sonnet (subagent),v2

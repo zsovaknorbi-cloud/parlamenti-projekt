@@ -1,0 +1,19 @@
+batch,model,prompt_version,datum,megjegyzes
+batch_001,claude-haiku (segéd-ügynök),v2,2026-11-18,próbaadag
+batch_002,claude-haiku (segéd-ügynök),v2,2026-11-18,párhuzamos kör 1
+batch_003,claude-haiku (segéd-ügynök),v2,2026-11-18,párhuzamos kör 1
+batch_004,claude-haiku (segéd-ügynök),v2,2026-11-18,párhuzamos kör 1
+batch_005,claude-haiku (segéd-ügynök),v2,2026-11-18,párhuzamos kör 1
+batch_101,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 1
+batch_102,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 1
+batch_103,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 1
+batch_104,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 1
+batch_105,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 2
+batch_106,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 2
+batch_107,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 2
+batch_108,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 2
+batch_109,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 3
+batch_110,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 3
+batch_111,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 3
+batch_112,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező kör 3
+batch_113,claude-haiku (segéd-ügynök),v2,2026-11-18,kezdeményező utolsó adag

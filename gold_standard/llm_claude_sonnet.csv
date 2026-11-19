@@ -1,0 +1,55 @@
+file,cap,emotion,reason,model,prompt_version
+2026-09-07_NRE_Magyar Péter_7_q009,6,3,"Tanárok kirúgása, elnézés elmaradása: számonkérő felháborodás.",claude-sonnet (subagent),v1
+2026-06-15_AV_Magyar Péter_1_q021,13,11,"Gyermekvédelmi forrás és étkeztetés ígérete, tárgyszerű.",claude-sonnet (subagent),v1
+2026-08-27_IV_Dr. Stumpf Péter_2_q022,20,11,"Közigazgatási szakemberek munkája, kifejezett érzelem nélkül.",claude-sonnet (subagent),v1
+2026-06-15_I_Novák Előd_q013,16,3,"Nemzetbiztonsági szolgálat vezetője nem válaszolt: számonkérés.",claude-sonnet (subagent),v1
+2026-06-08_NRE_Toroczkai László_1_q038,9,11,"Határnyomás, tárgyszerű közlés.",claude-sonnet (subagent),v1
+2026-09-21_AV_Novák Előd_q012,3,11,"KSH-adat a halálozásról, statisztikai közlés.",claude-sonnet (subagent),v1
+2026-09-28_AV_Rétvári Bence_q010,8,11,"Benzinár és fuvarozók, kritikus tényközlés.",claude-sonnet (subagent),v1
+2026-08-27_A_Dúró Dóra_q014,17,11,"Meta-egyezség összege, tárgyszerű.",claude-sonnet (subagent),v1
+2026-09-07_NRE_Dr. Bóka János_2_q018,999,3,"Miniszterelnök kirohanása miatti megdöbbenés, politikai csatározás.",claude-sonnet (subagent),v1
+2026-05-26_NRE_Magyar Péter_6_q008,20,11,"Alaptörvény-módosítás szükségessége, enyhe értékelés.",claude-sonnet (subagent),v1
+2026-06-29_NRE_Magyar Péter_1_q375,999,11,"Téma nem derül ki, érzelem nincs megnevezve.",claude-sonnet (subagent),v1
+2026-06-15_I_Nacsa Lőrinc_q022,6,11,"Határtalanul program eredménye, tárgyszerű értékelés.",claude-sonnet (subagent),v1
+2026-09-21_NRE_Magyar Péter_4_q215,999,3,"Félelemkeltés vádja, ellenfél támadása konkrét ügy nélkül.",claude-sonnet (subagent),v1
+2026-06-01_AV_Kármán András_1_q011,5,11,"Rendszer célja munkajogi szabályok kapcsán, tárgyszerű.",claude-sonnet (subagent),v1
+2026-06-29_NRE_Toroczkai László_1_q044,20,3,"Diktatúra-vád a kétharmaddal kapcsolatban, hipokrízis számonkérése.",claude-sonnet (subagent),v1
+2026-09-14_A_Dr. Németh Csilla_q011,13,11,"Gyermekvédelmi krízisprogram bejelentése, tárgyszerű.",claude-sonnet (subagent),v1
+2026-06-15_AV_Dócs Dávid_q008,999,11,"Általános állítás döntések hatásáról, téma nélkül.",claude-sonnet (subagent),v1
+2026-07-20_IV_Kapronczai Balázs_q008,6,11,"Hit- és erkölcstan választása, jogi közlés.",claude-sonnet (subagent),v1
+2026-09-21_A_Dr. Simicskó István_q022,13,11,"Családtámogatási programok felsorolása, puszta közlés.",claude-sonnet (subagent),v1
+2026-08-10_AV_Tompa Enikő_1_q016,15,11,"Vihar utáni kárigények felmérése, tárgyszerű.",claude-sonnet (subagent),v1
+2026-09-14_AV_Dr. Svéd Tamás_2_q007,1,3,"Előző kormány által örökített hiányok, felelős megnevezése.",claude-sonnet (subagent),v1
+2026-09-14_IV_Dr. Apáti István_q007,13,3,"Retorikai számonkérés a gyermekvédelemről.",claude-sonnet (subagent),v1
+2026-06-01_AV_Dr. Lőrincz Viktória_3_q005,999,11,"Általános megjegyzés, konkrét téma nélkül.",claude-sonnet (subagent),v1
+2026-08-10_IV_Dr. Kátai-Németh Vilmos_q018,999,11,"Téma nem derül ki a mondatból.",claude-sonnet (subagent),v1
+2026-06-15_I_Nacsa Lőrinc_q012,6,11,"Diákutazások támogatása, tárgyszerű közlés.",claude-sonnet (subagent),v1
+2026-05-26_NRE_Bujdosó Andrea Anna_1_q036,999,11,"Általános politikai kultúra, kifejezett érzelem nélkül.",claude-sonnet (subagent),v1
+2026-05-27_NRE_Bencsik János_q030,5,11,"Orvosok és pedagógusok keresete, számadat.",claude-sonnet (subagent),v1
+2026-06-29_NRE_Magyar Péter_1_q155,1,3,"Elhallgatott kötelezettségek, felelősök megnevezése.",claude-sonnet (subagent),v1
+2026-05-26_AV_Toroczkai László_q001,999,5,"Miniszterelnök lekezelése, alázás vádja, konkrét téma nélkül.",claude-sonnet (subagent),v1
+2026-06-29_AV_Németh Balázs Lajos_q007,999,11,"Téma nem derül ki, nincs kifejezett érzelem.",claude-sonnet (subagent),v1
+2026-05-26_AV_Tarr Zoltán_2_q004,2,11,"Kettős állampolgárság megőrzése, udvarias helyeslés.",claude-sonnet (subagent),v1
+2026-09-21_I_Dr. Takács Árpád_q005,8,11,"Otthoni energiatároló program ismertetése.",claude-sonnet (subagent),v1
+2026-09-22_NRE_Hortay Olivér_q018,1,11,"Terhek viselése családok és vállalatok által, tényközlés.",claude-sonnet (subagent),v1
+2026-07-27_NRE_Rétvári Bence_q050,999,11,"Téma nem derül ki, hipotetikus számadat.",claude-sonnet (subagent),v1
+2026-06-01_NRE_Magyar Péter_2_q067,20,5,"Parlamenti rendszer ironikus megjegyzése.",claude-sonnet (subagent),v1
+2026-09-07_NRE_Toroczkai László_2_q021,999,11,"Általános követelés, konkrét szakterület nélkül.",claude-sonnet (subagent),v1
+2026-06-29_AV_Tanács Zoltán_4_q003,999,11,"Vállalások teljesítésének közlése, szakterület nélkül.",claude-sonnet (subagent),v1
+2026-06-29_IV_Nacsa Lőrinc_q010,999,11,"Válasz elfogadása, udvariassági elem.",claude-sonnet (subagent),v1
+2026-06-22_NRE_Magyar Péter_1_q162,20,5,"Elődök lekezelése, alkotmányozás ötletbörzeként.",claude-sonnet (subagent),v1
+2026-06-30_NRE_Rétvári Bence_q038,7,11,"Klímaalkalmazkodás követelése, tárgyszerű.",claude-sonnet (subagent),v1
+2026-07-06_A_Takács Péter_q003,1,11,"Gyógyszerek áfájának csökkentési ígérete, tényközlés.",claude-sonnet (subagent),v1
+2026-07-21_NRE_Magyar Péter_3_q061,8,3,"Retorikai számonkérés a gázolajár kapcsán.",claude-sonnet (subagent),v1
+2026-05-26_NRE_Magyar Péter_3_q007,999,11,"Eljárási elem, válaszadás sorrendje.",claude-sonnet (subagent),v1
+2026-09-14_IV_Kapitány István_q018,8,11,"Kiegyensúlyozott energiamix, enyhe értékelés.",claude-sonnet (subagent),v1
+2026-06-08_I_Dr. Latorcai Csaba_q011,17,11,"Digitális eszközök figyelmeztetése, jogi leírás.",claude-sonnet (subagent),v1
+2026-05-26_I_Dr. Máthé Zsuzsa_q008,19,11,"Uniós gender-törekvések elleni küzdelem, tényközlés.",claude-sonnet (subagent),v1
+2026-06-16_NRE_Magyar Péter_4_q010,1,3,"Kamatstop, elhibázott gazdaságpolitika felelősének megnevezése.",claude-sonnet (subagent),v1
+2026-08-27_NRE_Szűcs Gábor_q053,20,3,"Korrupció elleni bejelentés a Közbeszerzési Hatóságnál.",claude-sonnet (subagent),v1
+2026-07-06_IV_Németh Balázs Lajos_q011,20,3,"Önkény elleni felkiáltás, demokrácia védelme.",claude-sonnet (subagent),v1
+2026-09-14_IV_Kapitány István_q015,999,11,"Téma nem derül ki, kritikus tényközlés.",claude-sonnet (subagent),v1
+2026-08-27_NRE_Toroczkai László_1_q053,20,5,"Gúnyos örömnyilvánítás, vizsgálóbizottság mintaként.",claude-sonnet (subagent),v1
+2026-06-30_NRE_Toroczkai László_1_q019,999,11,"Előrejelzés a kormány nehézségeiről, téma nélkül.",claude-sonnet (subagent),v1
+2026-07-06_NRE_Dr. Juhász Hajnalka_q034,13,11,"Bocsánatkérés a gyermekvédelmi szakemberektől, eljárási jellegű.",claude-sonnet (subagent),v1
+2026-05-27_NRE_Dr. Juhász Hajnalka_q008,19,11,"Európai alkotmány történeti tényközlés.",claude-sonnet (subagent),v1

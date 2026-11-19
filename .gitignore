@@ -1,0 +1,33 @@
+# Környezeti változók és titkok
+.env
+*.pem
+*.key
+id_rsa*
+
+# Adatok
+data/
+scratch/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Office temp files
+~$*
+
+# Nem része a beadandó repónak (adat, kód, kódkönyv); helyben megmarad
+egyeb/
+archiv_v1/
+.agents/
+.agent/
+GEMINI.md
+prezentacio_v2.html
+build_presentation_v2.py
+build_study_pdf_v2.py
+build_study_docx_v2.py
+build_study_docx_tomor.py
+elemzes_parlamenti_2026*.pdf
+elemzes_parlamenti_2026*.docx
+parlamenti_kvazi_mondatok_2026_v2.csv
