@@ -481,3 +481,12 @@ A `/vcoder-agreement` 4. lépése szerint a kutató a Sonnet összes eltérésé
   előzményekben is látszott. A teljes előzményt a gépen mentettem (`parlamenti-projekt_teljes_elozmeny.bundle`, a
   repó mellett), majd a GitHubon a repót egyetlen, tiszta commitra írtam át (force push). A napló ezért a korábbi
   commit-azonosítókra már nem hivatkozik; a lépések leírása itt teljes.
+
+## 2026-11-19 — Prezentáció a 4. blokkra (10 perc)
+- `prezentacio_v2.html` (helyben, nem része a repónak): 8 dia a leadott elemzés szerint — cím és H1/H2; adat és
+  módszer (felpörgő számok); H1: érzelmes arány műfaj × frakció (a négy frakció külön, CI-vel); H2: témák
+  műfajonként (műfaj-kiemelés); téma × érzelem kattintható valódi példamondatokkal (77 kvázi mondat, felszólaló,
+  frakció, műfaj, dátum; figyelmeztetés a gépi kódolásra); „Nem a párt, hanem a műfaj” (TISZA Magyar Péterrel és
+  nélküle); lejátszható heti hőtérkép az aszály-héttel; összegzés, korlátok, MI-nyilatkozat, reprodukció.
+- Animált oszlopok, nyilakkal/szóközzel lapozható, F = teljes képernyő, világos/sötét mód. 1280×720-as nézetben
+  kipróbálva: mind a 8 dia kirajzolódik, a lejátszás működik, nincs konzolhiba.
